@@ -1,0 +1,130 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Bal_Stat16 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat15 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat14 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat13 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat12 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat11 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat10 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat09 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat08 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat07 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat06 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat05 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat04 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat03 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat02 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Bal_Stat01 : 0|1@0+ (1,0) [0|0] "1=ON 0=OFF " Vector__XXX
+ SG_ Val_Cur2 : 0|24@0- (0.01,0) [0|0] "A" Vector__XXX
+ SG_ Reserved_02 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ValMin_Temp : 0|16@0- (0.1,0) [0|0] "C" Vector__XXX
+ SG_ ValMax_Temp : 0|16@0- (0.1,0) [0|0] "C" Vector__XXX
+ SG_ Reserved_02 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Val_PAckV : 0|24@0+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ Reserved_02 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Temp_Sens02_NTC_2 : 0|16@0- (0.1,0) [0|65535] "C" Vector__XXX
+ SG_ Temp_Sens01_NTC_1 : 0|16@0- (0.1,0) [0|65535] "C" Vector__XXX
+
+BO_ 269 AFE_Data9: 8 Vector__XXX
+ SG_ PackV : 39|16@0+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ IC_Temp : 23|16@0- (0.01,0) [0|0] "C" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 266 AFE_Data6: 8 Vector__XXX
+ SG_ Cell_Voltage16 : 23|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 265 AFE_Data5: 8 Vector__XXX
+ SG_ Cell_Voltage15 : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage14 : 39|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage13 : 23|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 264 AFE_Data4: 8 Vector__XXX
+ SG_ Cell_Voltage12 : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage11 : 39|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Cell_Voltage10 : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 263 AFE_Data3: 8 Vector__XXX
+ SG_ Cell_Voltage09 : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage08 : 39|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage07 : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 262 AFE_Data2: 8 Vector__XXX
+ SG_ Cell_Voltage06 : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage05 : 39|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage04 : 23|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 261 AFE_Data1: 8 Vector__XXX
+ SG_ Cell_Voltage03 : 55|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Cell_Voltage02 : 39|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Cell_Voltage01 : 23|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Reserved_02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 4 Current_Calculation: 8 Vector__XXX
+ SG_ Val_Cur1 : 23|24@0- (0.01,0) [0|0] "A" Vector__XXX
+
+BO_ 2 Temperature_Calculation: 8 Vector__XXX
+ SG_ Val_SysT : 55|16@0- (0.1,0) [0|0] "C" Vector__XXX
+
+BO_ 1 System_Calculation: 8 Vector__XXX
+ SG_ Val_PDUT : 55|16@0- (0.1,0) [0|0] "C" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+
